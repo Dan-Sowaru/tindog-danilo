@@ -1,0 +1,197 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  /* não funcionou. Nenhuma estilização de qualquer navbar funcionou aqui, só inline */
+}
+
+#nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  text-align: center;
+  color: #fff;
+  font-family: "Times";
+  font-size: xx-large;
+}
+
+.textimonial-text em {
+  color: white;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  height: 70px;
+  margin: 10px;
+}
+
+#download-screen {
+  height: 300px;
+}
+
+#download-1 {
+  position: relative;
+  top: 50px;
+}
+
+#iphone-mockup {
+  height: 350px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  top: 20px;
+}
+
+#features {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 100px 0px;
+}
+
+.col {
+  margin: 0px 10px;
+}
+
+#features p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.pink-icons {
+  height: 50px;
+  margin: 5px;
+}
+
+#pricing {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#pricing-div .col {
+  padding: 10px;
+}
+
+#pricing > h2 {
+  font-size: 48px;
+  padding: 10px;
+}
+
+#pricing > p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: 520;
+  margin-bottom: 50px;
+}
+
+.card h5,
+a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 500;
+}
+
+.card-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+.btn,
+.btn-lg {
+  border-width: 0px;
+  background-color: rgb(75, 75, 75);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#free-button {
+  background-color: white;
+  color: rgb(39, 39, 39);
+  border-width: 1px;
+  border-color: black;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+#press .container {
+  padding: 50px 0px;
+}
+
+#press.col-3 {
+  display: flex;
+}
+
+.press-logo {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+#cta {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 100px;
+  background-color: #ff4c68;
+  color: white;
+  display: space-around;
+  /* height: 300px; */
+  position: relative;
+}
+
+#cta > h3 {
+  font-size: 48px;
+  margin: 50px;
+}
+
+#footer {
+  font-size: 18px;
+  font-weight: 520;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100px;
+  text-align: center;
+  color: rgb(160, 160, 160);
+}
+
+#download-btn-white {
+  background-color: rgb(225, 225, 225);
+  color: black;
+}
+
+#download-btn-white:hover,
+#download-btn:hover {
+  background: rgb(78, 78, 252);
+}
+
+#download-btn-white-header {
+  background: #ff4c68;
+  color: white;
+  border-width: 1px;
+  border-color: white;
+}
+
+#social-media > i {
+  color: rgb(68, 68, 68);
+  padding: 10px;
+}
